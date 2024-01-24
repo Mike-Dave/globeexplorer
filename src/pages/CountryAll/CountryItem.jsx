@@ -4,7 +4,7 @@ function CountryItem({ flag, name, population, region, capital }) {
   return (
     <Link
       to={`/countrydetail/${name.common}`}
-      className="w-full h-[21.875rem] rounded-lg shadow-xl ml-10 md:ml-0"
+      className="w-[17.5rem] h-[21.875rem] rounded-lg shadow-xl ml-10 md:ml-0"
     >
       <picture>
         <img
