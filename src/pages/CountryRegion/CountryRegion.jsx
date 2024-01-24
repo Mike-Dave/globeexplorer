@@ -1,7 +1,7 @@
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
 import SearchAndFilter from "../../components/SearchAndFilter/SearchAndFilter";
 import { useCountry } from "../../contexts/CountryContext";
-import CountryRegionList from "./CountryregionList";
+import CountryRegionList from "./CountryRegionList";
 
 function CountryRegion() {
   const { countryRegionError } = useCountry();
